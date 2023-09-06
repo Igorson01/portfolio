@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.2",
+    "nuxt": "^2.14.6",
+    "orbit-controls-es6": "^2.0.1",
+    "three": "^0.126.1",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "postcss": "^8.4.17"
+  }
+}
