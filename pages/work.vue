@@ -13,6 +13,7 @@
 </template>
 <script>
 import gsap from 'gsap'
+import globeimg from '/assets/globe.png'
 import fightgameImg from '~/assets/fightgame.png'
 import kulkigameImg from '~/assets/kulkigame.png'
 import kinggameImg from '~/assets/kinggame.png'
@@ -51,15 +52,10 @@ export default{
             },
             {
              image:{
-                url: fightgameImg
+                url: globeimg
              },
-             title: 'Fight Game'
-            },
-            {
-             image:{
-                url: kulkigameImg
-             },
-             title: 'Kulki Game'
+             title: 'Earth 3D',
+             link: 'https://gorgeous-scone-720f00.netlify.app'
             }
             ]
         }
